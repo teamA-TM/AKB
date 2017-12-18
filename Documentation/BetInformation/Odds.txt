@@ -1,0 +1,2 @@
+Formula to calculate Odds of only 2 options
+(1/OptionA Amount)*100 + (1/OptionB Amount)*100

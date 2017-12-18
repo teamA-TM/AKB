@@ -1,18 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AKB (AllKindBet)</title>
 </head>
-<body>
-    <div class="bet">
-        <h5>Goku vs Boo cap 159, who wins?</h5>
-        <form action="">
-            <input type="radio" name="bet1" id="op1"/><label for="op1">Goku</label>
-            <input type="radio" name="bet1" id="op2"/><label for="op2">Boo</label>
-        </form>
-    </div>
-</body>
-</html>
+
+<div class="bet">
+    <h5>DragonBall Z, Goku vs Boo cap 159, who wins?</h5>
+    <p>POT: &#x2711;150 nibs</p>
+    <form action="index.html">
+        <p>
+            <input type="radio" name="bet1" id="op1" required/>
+            <label for="op1">Goku</label>
+            - Odd: 1,5
+        </p>
+        <p>
+            <input type="radio" name="bet1" id="op2" required/>
+            <label for="op2">Boo</label>
+            - Odd: 1,5
+        </p>
+        <label for="betSpace" title="min bet: &#x2711;50nibs, max: &#x2711;1000nibs">Amount:</label>
+        <input type="number" placeholder="Add Amount" min="50" max="1000" step="1" id="betSpace" title="min bet: &#x2711;50nibs, max: &#x2711;1000nibs"
+            required/>
+        <br>
+        <input type="Submit" value="Bet">
+    </form>
+</div>
+<br>
+
+<form action="">
+    <fieldset>
+        <legend>Debug tool</legend>
+        <div class="debugPanel">
+            <label for=""></label>
+            <input type="text" name="" id="">
+        </div>
+    </fieldset>
+</form>
